@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>All Awesome Books</title>
+</head>
+<body>
+    <header id="headercontainer">
+        <div id="header">
+            <p id="logo">Awesome Books</p>
+            <div id="navholder">
+                <button class="navitem" id="listnav">List</button>
+                <button class="navitem" id="addnav">Add New</button>
+                <button class="navitem" id="contactnav">Contact</button>
+            </div>
+        </div>
+        <div id="date"></div>
+    </header>
+    <section id="listsection">
+        <h1>All Awesome Books</h1>
+        <section id="bookcontainer">
+        </section>
+    </section>
+    <section id="formsection">
+        <h2 class="sectiontitle">Add a new book</h2>
+        <form id="form">
+            <input class="formelement" type="text" id="title" placeholder="Title" required>
+            <input class="formelement" type="text" id="author" placeholder="Author" required>
+            <button class="formelement" id="button" type="submit">Add</button>
+        </form>
+    </section>
+    <section id="contactsection">
+        <h2 class="sectiontitle">Contact information</h2>
+        <p class="contact">Do you have any questions or just want to say "Hello"?</p>
+        <p class="contact">You can reach out to us!</p>
+        <ul>
+            <li>Our email: example@gmail.com</li>
+            <li>Our phone number: 1234567890</li>
+            <li>Our address: Random Street 1557, City, Country</li>
+        </ul>
+    </section>
+    <footer id="footer">
+        Copyright
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>

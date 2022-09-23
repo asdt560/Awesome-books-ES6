@@ -1,0 +1,181 @@
+body {
+  height: 99vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  background-image: radial-gradient(white 70%, blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: darkblue;
+}
+
+p {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#headercontainer {
+  width: 100%;
+}
+
+#header {
+  border: 2px solid blue;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+
+#logo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  -webkit-background-clip: text;
+  color: darkblue;
+  margin-left: 30px;
+}
+
+#navholder {
+  display: flex;
+}
+
+.navitem {
+  background: none;
+  border: none;
+  font-weight: 600;
+  border-left: 2px solid black;
+}
+
+.navitem:first-child {
+  border-left: none;
+  color: blue;
+  cursor: auto;
+}
+
+.navitem:hover {
+  color: blue;
+}
+
+#listsection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bookcontainer {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+  border-radius: 5px;
+  width: 100%;
+  height: 60vh;
+  overflow-x: auto;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.book:nth-child(2n) {
+  background-color: lightblue;
+}
+
+.remover {
+  border: 2px solid lightblue;
+  border-radius: 5%;
+  font-weight: bold;
+  box-shadow: 3px 3px lightblue;
+  color: blue;
+}
+
+.remover:hover {
+  border: 2px solid grey;
+  background: blue;
+  color: white;
+}
+
+.divider {
+  margin: 20px;
+  border: 1px solid black;
+  width: 20%;
+  border-radius: 20%;
+}
+
+.sectiontitle {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-self: center;
+  color: darkblue;
+}
+
+#formsection {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.formelement {
+  margin: 15px 0;
+  border: 2px solid blue;
+  border-radius: 5%;
+  background-color: lightblue;
+  padding: 5px;
+}
+
+#button {
+  padding: 5px;
+  align-self: flex-end;
+  border-radius: 20%;
+  color: blue;
+}
+
+#button:hover {
+  background-color: blue;
+  color: white;
+}
+
+::placeholder {
+  color: blue;
+  opacity: 0.7;
+}
+
+button {
+  cursor: pointer;
+}
+
+#contactsection {
+  display: none;
+  flex-direction: column;
+}
+
+.contact {
+  line-height: 22px;
+}
+
+#footer {
+  display: flex;
+  border: 2px solid blue;
+  padding: 5px;
+  margin: 30px 0;
+  position: fixed;
+  bottom: 20px;
+  width: 85%;
+}
