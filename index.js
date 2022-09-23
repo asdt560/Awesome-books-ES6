@@ -1,8 +1,14 @@
+import { DateTime } from './modules/luxon.js';
+
 import listbuilder from './modules/listbuilder.js';
 
 import navigation from './modules/navigation.js';
 
 import { record, list, form } from './modules/record.js';
+
+const now = DateTime.now();
+
+document.querySelector('#date').innerHTML = now.toLocaleString(DateTime.DATETIME_MED);
 
 const deleting = (id) => {
   list.remove(id);

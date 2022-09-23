@@ -23,6 +23,8 @@ p {
 
 #headercontainer {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #header {
@@ -181,4 +183,8 @@ button {
   position: fixed;
   bottom: 20px;
   width: calc(100% - 70px);
+}
+
+#date {
+  text-align: right;
 }
