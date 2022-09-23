@@ -7,10 +7,12 @@ const navigation = () => {
 
   const navigating = (id) => {
     if (id === 'listnav') {
+      if (listsection.style.display === 'none') {
+        document.location.reload();
+      }
       listsection.style.display = 'flex';
       formsection.style.display = 'none';
       contactsection.style.display = 'none';
-      document.location.reload();
     }
     if (id === 'addnav') {
       listsection.style.display = 'none';
