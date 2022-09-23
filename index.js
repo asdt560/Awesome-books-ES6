@@ -6,9 +6,7 @@ import navigation from './modules/navigation.js';
 
 import { record, list, form } from './modules/record.js';
 
-const now = DateTime.now();
-
-document.querySelector('#date').innerHTML = now.toLocaleString(DateTime.DATETIME_MED);
+document.querySelector('#date').innerHTML = DateTime.now().toFormat('MMMM dd, yyyy');
 
 const deleting = (id) => {
   list.remove(id);
