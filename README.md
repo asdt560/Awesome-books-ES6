@@ -21,8 +21,6 @@
 - Twitter: [@twitterhandle](https://twitter.com/JustoRago)
 - LinkedIn: [LinkedIn]( www.linkedin.com/in/justo-rago-0714b5208)
 
-=======
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
